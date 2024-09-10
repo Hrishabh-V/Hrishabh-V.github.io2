@@ -22,7 +22,7 @@ export default[
         imgUrl:'src/assets/esrgan.jpg',
         stack:['Python','Pytorch','Flask','GPU'],
         link:'https://github.com/Hrishabh-V/Image-upscale-ESRGAN.git',
-        liveLink:'',
+        liveLink:'https://huggingface.co/spaces/CHEONMA010/ESRGAN',
     },
 
 
