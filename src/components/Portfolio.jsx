@@ -1,24 +1,26 @@
 import React from "react";
 import portfolio from "../data/portfolio";
-import PortfolioItem from "./portfolioitem";
-function Portfolio(){
-    return(
-        <div className=" flex flex-col md:flex-row items-center justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+import PortfolioItem from "./PortfolioItem";
+
+function Portfolio() {
+    return (
+        <div className="flex flex-col items-center justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
                 {
-                    portfolio.map(project=>(
+                    portfolio.map((project, index) => (
                         <PortfolioItem
-                        imgUrl={project.imgUrl}
-                        title={project.title}
-                        stack={project.stack}
-                        link={project.link}
-                        liveLink={project.liveLink} // Pass the liveLink prop
+                            key={index} // Always add a key when mapping over lists
+                            imgUrl={project.imgUrl}
+                            title={project.title}
+                            stack={project.stack}
+                            link={project.link}
+                            liveLink={project.liveLink} // Pass the liveLink prop
                         />
-                        
                     ))
                 }
             </div>
         </div>
-    )
+    );
 }
+
 export default Portfolio;

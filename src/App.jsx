@@ -1,6 +1,6 @@
 import React, {useEffect,useState} from 'react';
 import Intro from './components/intro';
-import Portfolio from './components/portfolio';
+import Portfolio from './components/Portfolio';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import './App.css'
