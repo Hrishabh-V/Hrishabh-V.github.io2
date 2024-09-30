@@ -17,7 +17,7 @@ export default [
         date: 'December-2023 to December-2023',
         details: [
             "Optimized house price prediction models, increasing accuracy by 15% using advanced machine learning techniques.",
-            "Streamlined data pipelines, reducing processing time by 15% through efficient data handling practices.",
+            "Enhanced data pipelines by adopting more efficient data handling practices, improving overall processing efficiency.",
             "Analyzed 13,000+ records to uncover market trends, supporting strategic decision-making for the team."
         ]
     }
